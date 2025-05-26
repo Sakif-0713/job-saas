@@ -2,6 +2,9 @@
 @import 'tw-animate-css';
 @custom-variant dark (&:is(.dark *));
 
+@import 'uploadthing/tw/v4';
+@source "../node_modules/@uploadthing/react/dist";
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
